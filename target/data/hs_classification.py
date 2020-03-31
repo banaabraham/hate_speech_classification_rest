@@ -16,7 +16,7 @@ os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
 
 parser = argparse.ArgumentParser(description='Hate-speech classifier')
 parser.add_argument('input', metavar='S', type=str, nargs='+',
-                   help='an integer for the accumulator')
+                   help='Input String')
 
 print("------BEGIN------")
 
